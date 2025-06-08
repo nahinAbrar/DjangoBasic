@@ -6,7 +6,7 @@ import '../styles/form.css'
 import LoadingIndicator from "./LoadingIndicator";
 
 
-function form({ route, method }) {
+function Form({ route, method }) {
     const [username, setUsername] = useState("")
     const [password, setPassword] = useState("")
     const [loading, setLoading] = useState(false)
@@ -67,4 +67,4 @@ function form({ route, method }) {
     </form>
 }
 
-export default form
+export default Form
